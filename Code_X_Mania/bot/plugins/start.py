@@ -79,7 +79,7 @@ async def start(b, m):
     await add_user_to_database(b, m)
     await StreamBot.send_photo(
             chat_id=m.chat.id,
-            photo ="https://telegra.ph/file/0f0d8a7370ff48b48d664.jpg",
+            photo ="https://telegra.ph/file/565f1e1b578ed4e682b7f.jpg",
             caption = START_TEXT.format(m.from_user.mention),
             parse_mode="html",
             reply_markup=START_BUTTONS)
