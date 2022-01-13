@@ -27,7 +27,7 @@ START_TEXT = """
 ✮ Hey {} ✮\n
 <code>I am Telegram File To Link Bot</code>\n
 <code>Use Help Command to Know how to Use me</code>\n
-✮ Made With 💕 By @NaysaBots"""
+✮ Maintained By [NaysaBots](https://telegram.me/NaysaBots)"""
 
 HELP_TEXT = """
 ✮ Send Me Any File or Media\n
