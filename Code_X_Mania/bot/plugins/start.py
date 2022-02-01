@@ -27,7 +27,7 @@ START_TEXT = """
 ✮ Hey {} ✮\n
 <code>I am Telegram File To Link Bot</code>\n
 <code>Use Help Command to Know how to Use me</code>\n
-✮ Maintained By @NaysaBots"""
+✮ Made By @Tellybots"""
 
 HELP_TEXT = """
 ✮ Send Me Any File or Media\n
@@ -38,11 +38,11 @@ HELP_TEXT = """
 
 ABOUT_TEXT = """
 🤖 My Name : Telly File Stream Bot\n
-🚦 Version : <a href='https://telegram.me/tellybots_4u'>3.0</a>\n
+🚦 Version : <a href='https://telegram.me/tellybots'>3.0</a>\n
 💫 Source Code : <a href='https://t.me/tellybots_digital'>Click Here</a>\n
 🗃️ Library : <a href='https://pyrogram.org'>Click Here</a>\n
-👲 Developer : <a href='https://telegram.me/tellybots_4u'>TellyBots_4u</a>\n
-📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 13-Jan-22 ] 09:00 AM</a>"""
+👲 Developer : <a href='https://telegram.me/tellybots'>TellyBots</a>\n
+📦 Last Updated : <a href='https://telegram.me/tellybots'>[ 13-Jan-22 ] 09:00 AM</a>"""
 
 TEXT = """Use Below Button Or Command to Use Me"""
 
@@ -50,7 +50,7 @@ TEXT = """Use Below Button Or Command to Use Me"""
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('♻️ Update Channel', url='https://telegram.me/tellybots_4u'),
-        InlineKeyboardButton('🎮 Support Group', url='https://telegram.me/tellybots_support')
+        InlineKeyboardButton('💬 Support Group', url='https://telegram.me/tellybots_support')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('🗑️ Close', callback_data='close')
@@ -58,14 +58,14 @@ START_BUTTONS = InlineKeyboardMarkup(
 )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏯 Home', callback_data='home'),
+        InlineKeyboardButton('🏤 Home', callback_data='home'),
         InlineKeyboardButton('🚴‍♂️ About', callback_data='about'),
         InlineKeyboardButton('🗑️ Close', callback_data='close')
         ]]
 )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏯 Home', callback_data='home'),
+        InlineKeyboardButton('🏤 Home', callback_data='home'),
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('🗑️ Close', callback_data='close')
         ]]
