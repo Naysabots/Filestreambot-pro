@@ -90,19 +90,19 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton('🗑️ Close', callback_data='close')
         ]]
 )        
-@StreamBot.on_message((filters.command("start") | filters.regex('start')) & filters.private & ~filters.edited)
-async def start(b, m):    
-    if Var.UPDATES_CHANNEL:
-      fsub = await handle_force_subscribe(b, m)
-      if fsub == 400:
-        return
-    await add_user_to_database(b, m)
-    await StreamBot.send_photo(
-            chat_id=m.chat.id,
-            photo ="https://telegra.ph/file/565f1e1b578ed4e682b7f.jpg",
-            caption = START_TEXT.format(m.from_user.mention),
-            parse_mode="html",
-            reply_markup=START_BUTTONS)
+#@StreamBot.on_message((filters.command("start") | filters.regex('start')) & filters.private & ~filters.edited)
+#async def start(b, m):    
+    #if Var.UPDATES_CHANNEL:
+      #fsub = await handle_force_subscribe(b, m)
+      #if fsub == 400:
+        #return
+    #await add_user_to_database(b, m)
+    #await StreamBot.send_photo(
+            #chat_id=m.chat.id,
+            #photo ="https://telegra.ph/file/565f1e1b578ed4e682b7f.jpg",
+            #caption = START_TEXT.format(m.from_user.mention),
+            #parse_mode="html",
+           #reply_markup=START_BUTTONS)
     #await m.reply_text(
             #text=TEXT,
             #parse_mode="HTML",
