@@ -46,6 +46,26 @@ ABOUT_TEXT = """
 
 TEXT = """Use Below Button Or Command to Use Me"""
 
+
+INFO_TEXT = """
+ 💫 Telegram Information
+
+ 🤹 First Name : <b>{}</b>
+
+ 🚴‍♂️ Second Name : <b>{}</b>
+
+ 🧑🏻‍🎓 Username : <b>@{}</b>
+
+ 🆔 Telegram Id : <code>{}</code>
+
+ 📇 Profile Link : <b>{}</b>
+
+ 📡 Dc : <b>{}</b>
+
+ 📑 Language : <b>{}</b>
+
+ 👲 Status : <b>{}</b>
+"""
              
 START_BUTTONS = InlineKeyboardMarkup(
         [[
