@@ -44,7 +44,7 @@ ABOUT_TEXT = """
 👲 Developer : <a href='https://telegram.me/tellybots'>TellyBots</a>\n
 📦 Last Updated : <a href='https://telegram.me/tellybots'>[ 13-Jan-22 ] 09:00 AM</a>"""
 
-TEXT = """Use Below Button Or Command to Use Me"""
+TEXT = """Just Send Me Any Telegram Media To Get Started\n\nOr Use Below Buttons to Interact With Me"""
 
 
 INFO_TEXT = """
@@ -103,12 +103,12 @@ async def start(b, m):
             caption = START_TEXT.format(m.from_user.mention),
             parse_mode="html",
             reply_markup=START_BUTTONS)
-    #await m.reply_text(
-            #text=TEXT,
-            #parse_mode="HTML",
-            #disable_web_page_preview=True,
-            #reply_markup=buttonz
-           #)        
+    await m.reply_text(
+            text=TEXT,
+            parse_mode="HTML",
+            disable_web_page_preview=True,
+            reply_markup=buttonz
+           )        
         
 
 @StreamBot.on_callback_query()
